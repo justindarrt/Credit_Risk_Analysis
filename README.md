@@ -4,7 +4,8 @@
 The purpose of this project is to use LendingClub data on borrowers to predict if a loan is approved or declined. We use supervised machine learning in python to conduct the analysis. The data was oversampled using RandomOverSampler and SMOTE. We also undersampled using ClusterCentroids and SMOTEENN. The BalancedRandomForestClassifier and EasyEnsembleClassifier were used to predict credit risk of borrowers.
 
 ## Results
-The RandomOverSampler has an accuracy score of 64%. The high-risk precision and recall values are 1% and 69%. The low-risk precision and recall values are 100% and 59%.
+###RandomOverSampler 
+* Accuracy score of 64%. The high-risk precision and recall values are 1% and 69%. The low-risk precision and recall values are 100% and 59%.
 ![pic1](https://user-images.githubusercontent.com/103381098/183312433-9c13973a-d90a-4fd6-b796-2c6b3236e9e1.png)
 
 SMOTE oversampling has an accuracy score of 66%. The high-risk precision and recall values are 1% and 63%. The low-risk precision and recall values are 100% and 69%.
