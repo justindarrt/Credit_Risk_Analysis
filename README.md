@@ -4,17 +4,28 @@
 The purpose of this project is to use LendingClub data on borrowers to predict if a loan is approved or declined. We use supervised machine learning in python to conduct the analysis. The data was oversampled using RandomOverSampler and SMOTE. We also undersampled using ClusterCentroids and SMOTEENN. The BalancedRandomForestClassifier and EasyEnsembleClassifier were used to predict credit risk of borrowers.
 
 ## Results
-###RandomOverSampler 
-* Accuracy score of 64%. The high-risk precision and recall values are 1% and 69%. The low-risk precision and recall values are 100% and 59%.
+### RandomOverSampler 
+* Accuracy score: 64%
+* Precision values: high 1% and low 100%
+* Recall values: high 69% and low 59%
 ![pic1](https://user-images.githubusercontent.com/103381098/183312433-9c13973a-d90a-4fd6-b796-2c6b3236e9e1.png)
 
-SMOTE oversampling has an accuracy score of 66%. The high-risk precision and recall values are 1% and 63%. The low-risk precision and recall values are 100% and 69%.
+### SMOTE 
+* Accuracy score: 66%
+* Precision values: high 1% and low 100%
+* Recall values: high 63% and low 69%
 ![pic2](https://user-images.githubusercontent.com/103381098/183312440-107aaba0-21cb-4b5e-be0e-17a469168327.png)
 
-ClusterCentroids undersampling has an accuracy score of 54%. The high-risk precision and recall values are 1% and 69%. The low-risk precision and recall values are 100% and 40%.
+### ClusterCentroids 
+* Accuracy score: 54%
+* Precision values: high 1% and low 100%
+* Recall values: high 69% and low 40%
 ![pic3](https://user-images.githubusercontent.com/103381098/183312447-dd05e798-1970-4f21-b2f6-354f54817e4a.png)
 
-SMOTEENN combination has an accuracy score of 64%. The high-risk precision and recall values are 1% and 70%. The low-risk precision and recall values are 100% and 57%.
+### SMOTEENN Combination 
+* Accuracy score: 64%
+* Precision values: high 1% and low 100%
+* Recall values: high 70% and low 57%
 ![pic4](https://user-images.githubusercontent.com/103381098/183312452-aba58351-87ec-46a8-aed3-9b3baa367008.png)
 
 ## Summary
